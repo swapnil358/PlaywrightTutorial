@@ -5,6 +5,9 @@ import com.microsoft.playwright.*;
 
 import java.nio.file.Paths;
 
+
+//Code gen command -  mvn exec:java -e -Dexec.mainClass=com.microsoft.playwright.CLI -Dexec.args="codegen https://www.amazon.com/"
+
 public class demo2_RecordAndPlay {
     public static void main(String[] args) {
         try (Playwright playwright = Playwright.create()) {

@@ -34,7 +34,6 @@ public class demo1 {
         System.out.println("Url is : " + url);
 
         browser2.close();
-
         pw.close();
     }
 }

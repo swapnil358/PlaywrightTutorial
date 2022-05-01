@@ -5,7 +5,7 @@ import com.microsoft.playwright.BrowserType;
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.Playwright;
 
-public class demo1 {
+public class setUpPlaywright {
 
     public static void main(String[] args) {
 

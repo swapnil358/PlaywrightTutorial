@@ -5,10 +5,15 @@ import com.microsoft.playwright.*;
 
 import java.nio.file.Paths;
 
+/*
+1. Go to project location
+2. Run Command prompt
+3. Run below Code gen command to record and to open playwright inspect window
+4. mvn exec:java -e -Dexec.mainClass=com.microsoft.playwright.CLI -Dexec.args="codegen https://www.amazon.com/"
+ */
 
-//Code gen command -  mvn exec:java -e -Dexec.mainClass=com.microsoft.playwright.CLI -Dexec.args="codegen https://www.amazon.com/"
 
-public class demo2_RecordAndPlay {
+public class RecordAndPlay {
     public static void main(String[] args) {
         try (Playwright playwright = Playwright.create()) {
 

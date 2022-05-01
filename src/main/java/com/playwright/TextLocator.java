@@ -5,7 +5,7 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-public class locators {
+public class TextLocator {
     static Playwright pw;
     static Page page;
 
